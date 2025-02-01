@@ -1,0 +1,32 @@
+{
+    "name": "APEX Sticky Classic Report Columns",
+    "version": "25.02.01",
+    "description": "This dynamic action plug-in is for Classic Reports. It ensures that a configured number of columns remain pinned to the left edge when scrolling horizontally. The plug-in should be triggered via the “After Refresh” event on the Classic Report region and \"Fire on Page Load\" should also be activated.<p><b>Important clarification: My work in the development team of Oracle APEX is in no way related to my open source projects or the plug-ins here on apex.world! All plug-ins are built in my spare time and are not supported by Oracle!</b></p>",
+    "keywords": ["oracle", "apex", "plugin", "dynamic action"],
+    "homepage": "https://github.com/RonnyWeiss/APEX-Sticky-Classic-Report-Columns",
+    "bugs": {
+        "url": "https://github.com/RonnyWeiss/APEX-Sticky-Classic-Report-Columns"
+    },
+    "license": "MIT",
+    "commercial": "No",
+    "commercially_supported": "No",
+    "author": {
+        "name": "Ronny Weiß"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RonnyWeiss/APEX-Sticky-Classic-Report-Columns.git"
+    },
+    "oracle": {
+        "versions": ["12.2.0.1", "18.4.0.0", "19.0.0.0.0", "19.2.0.0.19", "21.0.0.0.0", "21.1.0.0.0", "21.1.0.0.1"],
+        "apex": {
+            "versions": ["21.1.0", "21.2.0", "22.1.0", "22.2.0", "23.1.0", "23.2.0", "24.2.0", "24.2.0"],
+            "plugin": {
+                "internalName": "RW.APEX.CLASSIC.REPORT.STICKY.COLUMNS",
+                "type": "dynamic action",
+                "demo": "https://apex.oracle.com/pls/apex/f?p=103428",
+                "previewImage": "https://github.com/RonnyWeiss/APEX-Sticky-Classic-Report-Columns/raw/master/screenshot.png"
+            }
+        }
+    }
+}
