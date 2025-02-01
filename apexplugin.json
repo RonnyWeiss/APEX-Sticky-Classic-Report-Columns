@@ -5,7 +5,8 @@
     "keywords": ["oracle", "apex", "plugin", "dynamic action"],
     "homepage": "https://github.com/RonnyWeiss/APEX-Sticky-Classic-Report-Columns",
     "bugs": {
-        "url": "https://github.com/RonnyWeiss/APEX-Sticky-Classic-Report-Columns"
+        "url": "https://github.com/RonnyWeiss/APEX-Sticky-Classic-Report-Columns",
+        "email": "wronny@gmx.de"
     },
     "license": "MIT",
     "commercial": "No",
