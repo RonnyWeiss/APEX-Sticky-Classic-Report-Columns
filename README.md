@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/ORACLE-APEX-success.svg) ![](https://img.shields.io/badge/Plug--in_Type-Dynamic_Action-orange.svg)
 
-![Screenshot](https://github.com/RonnyWeiss/APEX-Sticky-Classic-Report-Columns/blob/main/screenshot.gif?raw=true)
+![Screenshot](https://raw.githubusercontent.com/RonnyWeiss/APEX-Sticky-Classic-Report-Columns/refs/heads/main/screenshot.gif)
 
 This dynamic action plug-in is for Classic Reports. It ensures that a configured number of columns remain pinned to the left edge when scrolling horizontally. The plug-in should be triggered via the “After Refresh” event on the Classic Report region and "Fire on Page Load" should also be activated.
 
