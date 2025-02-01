@@ -63,8 +63,8 @@ wwv_flow_api.create_plugin(
 '    l_result apex_plugin.t_dynamic_action_render_result;',
 'begin',
 '    l_result.javascript_function := ''function () { stickyClassicReportColumns(apex, apex.jQuery).initialize( this, {'' ||',
-'        apex_javascript.add_attribute(''columnNumber'', p_dynamic_action.attribute_01, true) ||',
-'        apex_javascript.add_attribute(''maxTableHeight'', p_dynamic_action.attribute_02) ||',
+'        apex_javascript.add_attribute(''columnNumber'', p_dynamic_action.attribute_01, false, true) ||',
+'        apex_javascript.add_attribute(''maxTableHeight'', p_dynamic_action.attribute_02, false, false) ||',
 '    ''}); }'';',
 '    return l_result;',
 'end;'))
