@@ -28,7 +28,7 @@
                 "internalName": "RW.APEX.CLASSIC.REPORT.STICKY.COLUMNS",
                 "type": "dynamic action",
                 "demo": "https://apex.oracle.com/pls/apex/f?p=103428",
-                "previewImage": "https://github.com/RonnyWeiss/APEX-Sticky-Classic-Report-Columns/blob/main/screenshot.gif"
+                "previewImage": "https://raw.githubusercontent.com/RonnyWeiss/APEX-Sticky-Classic-Report-Columns/refs/heads/main/screenshot.gif"
             }
         }
     }
